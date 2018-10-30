@@ -1,0 +1,17 @@
+$fontColor: blue;
+$colorHeading: black;
+
+#content  // div with id: content
+{
+    color: $fontColor;
+}
+
+h2
+{
+    color: $colorHeading;
+    border-color: black
+}
+
+h1{
+    @extend h2;
+}
