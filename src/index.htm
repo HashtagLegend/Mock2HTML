@@ -5,13 +5,7 @@
   <title>RestServiceTest</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
 <style>
-.buttonload{
-  background-color: #4CAF50; /* Green background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 24px; /* Some padding */
-    font-size: 16px; /* Set a font-size */
-}
+
 
 </style>
 
@@ -20,8 +14,28 @@
 <body>
   <h1>Car Database</h1>
   <h2>Get all cars</h2> 
-  <button id="getAllCars" class="button"></i> Get all cars</button> 
+  <button id="getAllCars"> Get all cars</button> 
   <p id="field1"></p>
+
+
+  <h2>Get car by Id</h2>
+<input id="carId" placeholder="Indtast ID">
+<button class="button button2" id="getCarById">Get customer by ID</button>
+<p id="carByIdField"></p>
+
+<h2>Create customer</h2>
+
+<input id="id" type="number" placeholder="ID">
+<input id="make" placeholder="Mærke">
+<input id="type" placeholder="Model">
+<input id="price" type="number" placeholder="Pris">
+<button class="button button2" id="createCar">Opret bil</button>
+<p id="statusBar"></p>
+
+<h2>Delete Car</h2>
+<input id="deleteId">
+<button class="button button2" id="deleteCar">Delete Car</button>
+<p id="deleteStatusBar"></p>
     
   <script src="bundle.js"></script>
 </body>

@@ -1,17 +1,14 @@
 $fontColor: blue;
 $colorHeading: black;
 
-#content  // div with id: content
-{
-    color: $fontColor;
-}
-
 h2
 {
     color: $colorHeading;
-    border-color: black
+    border-color: black;
 }
 
 h1{
-    @extend h2;
+    background: black;
+    color: white
+    
 }
